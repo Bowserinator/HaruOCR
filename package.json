@@ -1,0 +1,20 @@
+{
+  "name": "haru-ocr",
+  "version": "1.0.0",
+  "description": "OCR extension for comics / manga",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bowserinator",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@hellomouse/eslint-config": "^1.1.5",
+    "eslint": "^8.20.0",
+    "eslint-plugin-jsdoc": "^39.3.3"
+  }
+}

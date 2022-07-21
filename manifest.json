@@ -1,0 +1,13 @@
+{
+  "name": "HaruOCR",
+  "version": "1.0",
+  "description": "OCR extension for comics / manga",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    "traineddata/*.traineddata.gz"
+  ],
+  "content_security_policy": "script-src 'self' https://unpkg.com/tesseract.js@v2.0.0/dist/worker.min.js https://unpkg.com/tesseract.js-core@v2.0.0/tesseract-core.wasm.js https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js 'wasm-eval'; object-src 'self'"
+}
